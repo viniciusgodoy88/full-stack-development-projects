@@ -25,26 +25,26 @@ The goal of this repository is to document learning progress, organize projects 
 ## 📂 Repository Structure
 
 📂 frontend/<br />
-│ ├── react-projects/
-│ └── nextjs-apps/
-│
-📂 backend/
-│ ├── node-apis/
-│ └── python-services/
-│
-📂 database/
-│ ├── sql/
-│ └── nosql/
-│
-📂 cloud/
-│ ├── docker/
-│ ├── ci-cd/
-│ └── cloud-deployment/
-│
-📂 mobile/
-│ └── react-native-apps/
-│
-└── README.md
+│ ├── react-projects/<br />
+│ └── nextjs-apps/<br />
+│<br />
+📂 backend/<br />
+│ ├── node-apis/<br />
+│ └── python-services/<br />
+│<br />
+📂 database/<br />
+│ ├── sql/<br />
+│ └── nosql/<br />
+│<br />
+📂 cloud/<br />
+│ ├── docker/<br />
+│ ├── ci-cd/<br />
+│ └── cloud-deployment/<br />
+│<br />
+📂 mobile/<br />
+│ └── react-native-apps/<br />
+│<br />
+└── README.md<br />
 
 
 Each folder groups projects by **technology and responsibility within the stack**, making the repository easy to navigate and evaluate.
