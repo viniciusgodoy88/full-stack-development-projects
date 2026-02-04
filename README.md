@@ -24,8 +24,7 @@ The goal of this repository is to document learning progress, organize projects 
 
 ## 📂 Repository Structure
 
-<br />
-📂 frontend/
+📂 frontend/<br />
 │ ├── react-projects/
 │ └── nextjs-apps/
 │
