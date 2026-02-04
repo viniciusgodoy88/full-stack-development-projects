@@ -24,24 +24,25 @@ The goal of this repository is to document learning progress, organize projects 
 
 ## 📂 Repository Structure
 
-├── frontend/
+<br />
+📂 frontend/
 │ ├── react-projects/
 │ └── nextjs-apps/
 │
-├── backend/
+📂 backend/
 │ ├── node-apis/
 │ └── python-services/
 │
-├── database/
+📂 database/
 │ ├── sql/
 │ └── nosql/
 │
-├── cloud/
+📂 cloud/
 │ ├── docker/
 │ ├── ci-cd/
 │ └── cloud-deployment/
 │
-├── mobile/
+📂 mobile/
 │ └── react-native-apps/
 │
 └── README.md
