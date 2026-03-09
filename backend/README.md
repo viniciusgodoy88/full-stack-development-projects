@@ -1,3 +1,11 @@
+![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6)
+![Node.js](https://img.shields.io/badge/Runtime-Node.js-339933)
+![JavaScript](https://img.shields.io/badge/Language-JavaScript-F7DF1E)
+![npm](https://img.shields.io/badge/Package%20Manager-npm-CB3837)
+
+![Repo Stars](https://img.shields.io/github/stars/viniciusgodoy88/full-stack-development-projects)
+![Last Commit](https://img.shields.io/github/last-commit/viniciusgodoy88/full-stack-development-projects)
+
 # Backend Projects
 
 This folder contains **back-end services and APIs** developed as part of
