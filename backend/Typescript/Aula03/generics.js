@@ -1,5 +1,5 @@
 //Função em generics onde trata-se de um array que pode-se utilizar diversas tipos de dados, como string, inteiros,
-//dentre outros
+//dentre outros, e mostra o primeiro array
 function primeiroElemento(arr) {
     return arr[0];
 }
