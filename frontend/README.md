@@ -1,5 +1,9 @@
 # Frontend Projects
 
+![React](https://img.shields.io/badge/Frontend-React-61DAFB)
+![Next.js](https://img.shields.io/badge/Frontend-Next.js-black)
+![JavaScript](https://img.shields.io/badge/Language-JavaScript-F7DF1E)
+
 This folder contains **front-end applications** developed during the
 **Postech Full Stack Development** program (FIAP + Alura).
 
