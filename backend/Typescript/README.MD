@@ -142,8 +142,8 @@ Arquivo:
 ---
 
 # 📂 Estrutura do Diretório
-backend
-│
+backend<br />
+│<br />
 └── Typescript<br />
     │<br />
     ├── Aula01<br />
@@ -159,7 +159,7 @@ backend
     │   ├── generics2.ts<br />
     │   ├── index.ts <br />    
     │<br />
-    ├── Aula04<br />
+    ├── Aula04
     │   ├── app.ts <br />
     │   ├── operacoesbasicas.ts <br /> 
     │   ├── operacoesavancadas.ts <br /> 
