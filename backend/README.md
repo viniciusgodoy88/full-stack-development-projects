@@ -23,12 +23,12 @@ The focus is on business logic, data processing, and API development.
 Each project is organized in its own folder:
 
 backend/<br />
-├── Typescript/<br />
-└── Aula01/<br />
-└── Aula02/<br />
-└── Aula03/<br />
-└── Aula04/<br />
-└── Aula05/<br />
+├── Typescript<br />
+└── Aula01<br />
+└── Aula02<br />
+└── Aula03<br />
+└── Aula04<br />
+└── Aula05<br />
 └── README.md<br />
 
 
