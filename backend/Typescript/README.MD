@@ -144,27 +144,27 @@ Arquivo:
 # 📂 Estrutura do Diretório
 backend
 │
-└── Typescript
-    │
-    ├── Aula01
-    │   ├── biblioteca.ts
-    │   ├── curso.ts
-    │
-    ├── Aula02
-    │   ├── poo.ts
-    │   ├── poo2.ts
-    │
-    ├── Aula03
-    │   ├── generics.ts
-    │   ├── generics2.ts
-    │   ├── index.ts     
-    │
-    ├── Aula04
-    │   ├── app.ts 
-    │   ├── operacoesbasicas.ts  
-    │   ├── operacoesavancadas.ts  
-    │
-    ├── Aula05    
+└── Typescript<br />
+    │<br />
+    ├── Aula01<br />
+    │   ├── biblioteca.ts<br />
+    │   ├── curso.ts<br />
+    │<br />
+    ├── Aula02<br />
+    │   ├── poo.ts<br />
+    │   ├── poo2.ts<br />
+    │<br />
+    ├── Aula03<br />
+    │   ├── generics.ts<br />
+    │   ├── generics2.ts<br />
+    │   ├── index.ts <br />    
+    │<br />
+    ├── Aula04<br />
+    │   ├── app.ts <br />
+    │   ├── operacoesbasicas.ts <br /> 
+    │   ├── operacoesavancadas.ts <br /> 
+    │<br />
+    ├── Aula05<br /> 
 
 
 
