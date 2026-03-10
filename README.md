@@ -1,10 +1,16 @@
 # Full Stack Development Projects
 
-![Python](https://img.shields.io/badge/Backend-Python%20%7C%20Node.js-blue)
+![Backend](https://img.shields.io/badge/Backend-TypeScript%20%7C%20Node.js-3178C6)
+![Language](https://img.shields.io/badge/Language-JavaScript-F7DF1E)
+![Runtime](https://img.shields.io/badge/Runtime-Node.js-339933)
+![Package Manager](https://img.shields.io/badge/Package%20Manager-npm-CB3837)
 ![Frontend](https://img.shields.io/badge/Frontend-React%20%7C%20Next.js-61DAFB)
 ![Database](https://img.shields.io/badge/Database-SQL%20%7C%20NoSQL-orange)
 ![Cloud](https://img.shields.io/badge/Cloud-AWS%20%7C%20DevOps-yellow)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-green)
+![GitHub Repo stars](https://img.shields.io/github/stars/viniciusgodoy88/full-stack-development-projects)
+![GitHub forks](https://img.shields.io/github/forks/viniciusgodoy88/full-stack-development-projects)
+![GitHub last commit](https://img.shields.io/github/last-commit/viniciusgodoy88/full-stack-development-projects)
 
 This repository contains **hands-on projects and practical exercises** developed during the  
 **Postech Full Stack Development** postgraduate program by **FIAP + Alura**.
