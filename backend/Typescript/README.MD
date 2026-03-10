@@ -2,7 +2,7 @@
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Status](https://img.shields.io/badge/status-learning-blue)
+![Status](https://img.shields.io/badge/status-finalizado-brightgreen?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ---
@@ -70,8 +70,6 @@ Ao desenvolver os códigos desta pasta foi possível aprender:
 
 ## 1️⃣ Operações Matemáticas
 
-Arquivos:
-
 ### Funcionalidades
 
 - Soma
@@ -90,8 +88,6 @@ Arquivos:
 
 ## 2️⃣ Sistema de Carros
 
-Arquivo:
-
 ### Funcionalidades
 
 - Criação de objetos do tipo carro
@@ -109,8 +105,6 @@ Arquivo:
 
 ## 3️⃣ Calculadora de Massa Molar
 
-Arquivo:
-
 ### Funcionalidades
 
 - Identificação de elementos químicos
@@ -126,8 +120,6 @@ Arquivo:
 
 ## 4️⃣ Generics em TypeScript
 
-Arquivo:
-
 ### Funcionalidades
 
 - Classe genérica reutilizável
@@ -138,6 +130,24 @@ Arquivo:
 - Generics
 - Restrições de tipos (`extends`)
 - Tipagem avançada
+
+---
+
+5️⃣ Sistema de Registro de Usuário e Controle de Lâmpada
+
+### Funcionalidades
+
+- Simulação de envio de e-mail para novos usuários
+- Registro de usuário no sistema
+- Controle de estado de uma lâmpada (ligar e desligar)
+
+### Conceitos aplicados
+
+- Classes
+- Encapsulamento
+- Injeção de dependência simples
+- Métodos de classe
+- Organização de responsabilidades entre classes
 
 ---
 
@@ -165,12 +175,10 @@ backend<br />
     │   ├── operacoesavancadas.ts <br /> 
     │<br />
     ├── Aula05<br /> 
+    │   ├── email.ts <br />
+    │   ├── lampada.ts <br /> 
 
 
-
-
-
-  
 ---
 
 # 🚀 Objetivo
