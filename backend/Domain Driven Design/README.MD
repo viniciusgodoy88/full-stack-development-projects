@@ -35,86 +35,86 @@ Os exemplos deste diretório utilizam alguns conceitos fundamentais do Domain Dr
 
 # Estrutura de Diretórios
 
-Domain Driven Design
-│
-├── entities
-│ └── ...
-│
-├── repositories
-│ └── ...
-│
-├── services
-│ └── ...
-│
-└── index.ts
-
+Domain Driven Design</br>
+│</br>
+├── entities</br>
+│ └── ...</br>
+│</br>
+├── repositories</br>
+│ └── ...</br>
+│</br>
+├── services</br>
+│ └── ...</br>
+│</br>
+└── index.ts</br>
 
 ---
 
-# Descrição dos Arquivos
+# 🧩 Descrição das Camadas
 
-## entities/
+## entities
 
 Contém as **entidades do domínio**, responsáveis por representar os principais objetos do negócio.
 
-Exemplos de responsabilidades:
+Responsabilidades:
 
-- Representar objetos com identidade
-- Conter regras de negócio relacionadas à entidade
-- Garantir consistência dos dados
+- possuir identidade única
+- encapsular regras de negócio
+- representar conceitos importantes do domínio
 
 ---
 
-## repositories/
+## repositories
 
 Os **repositórios** são responsáveis por abstrair o acesso aos dados das entidades.
 
-Eles funcionam como uma coleção de objetos de domínio, permitindo:
+Funções principais:
 
 - salvar entidades
-- buscar entidades
-- atualizar dados do domínio
+- buscar dados
+- atualizar registros
+- remover entidades
 
-Esse padrão evita que a lógica de persistência polua o domínio da aplicação.
+Esse padrão evita que a lógica de persistência fique misturada com as regras de negócio.
 
 ---
 
-## services/
+## services
 
-Os **serviços de domínio** concentram regras de negócio que não pertencem diretamente a uma entidade específica.
+Os **serviços de domínio** contêm regras de negócio que não pertencem diretamente a uma entidade específica.
 
-Exemplo de responsabilidades:
+Exemplos:
 
 - cálculos complexos
+- validações de domínio
 - operações envolvendo múltiplas entidades
-- regras de negócio transversais
 
 ---
 
 ## index.ts
 
-Arquivo responsável por inicializar ou demonstrar a utilização dos componentes do domínio.
+Arquivo responsável por demonstrar o funcionamento do domínio.
 
 Pode conter:
 
 - criação de entidades
-- execução de regras de negócio
-- exemplos de uso dos serviços e repositórios.
+- execução de serviços
+- exemplos de uso de repositórios
 
 ---
 
-# Objetivo do Projeto
+# 🎯 Objetivo do Projeto
 
 Este projeto faz parte do repositório **Full Stack Development Projects** e tem como objetivo:
 
 - estudar arquitetura de software
-- aplicar padrões de design
-- praticar organização de código escalável
-- aprender conceitos de Domain Driven Design
+- aplicar conceitos de Domain Driven Design
+- praticar organização de código backend
+- aprender padrões de arquitetura escalável
 
 ---
 
-# Tecnologias Utilizadas
+# 🛠️ Tecnologias Utilizadas
 
 - TypeScript
 - Node.js
@@ -123,9 +123,16 @@ Este projeto faz parte do repositório **Full Stack Development Projects** e tem
 
 ---
 
-# Referências
+# 📖 Referências
 
 - Eric Evans — *Domain Driven Design*
 - Martin Fowler — *Patterns of Enterprise Application Architecture*
 
+---
 
+# 👨‍💻 Autor
+
+Desenvolvido por **Vinicius Godoy**
+
+GitHub:  
+https://github.com/viniciusgodoy88
