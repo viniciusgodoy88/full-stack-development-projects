@@ -37,8 +37,14 @@ Backend<br />
 └── Aula03<br />
 └── Aula04<br />
 └── Aula05<br />
+├── Docker<br />
+└── Aula01<br />
+├── Domain Driven Design<br />
+└── Aula02<br />
+└── Aula06<br />
+├── Node.JS<br />
+└── FULLSTACK_NODEJS_INICIO<br />
 └── README.md<br />
-
 
 ---
 
