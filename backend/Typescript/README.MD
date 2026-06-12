@@ -45,6 +45,7 @@ Durante os estudos nesta pasta foram praticados os seguintes conceitos:
 - Estruturação de código
 - Reutilização de código
 - Modularização
+- Injeção de dependência simples
 
 ---
 
@@ -64,76 +65,82 @@ Ao desenvolver os códigos desta pasta foi possível aprender:
 
 ✔ Como estruturar código backend de forma mais organizada
 
+✔ Como aplicar **encapsulamento e injeção de dependência** em classes
+
+✔ Como modelar **sistemas reais** (biblioteca, cursos, lâmpadas, e-mails) com TypeScript
+
 ---
 
 # 🧪 O que é demonstrado nos códigos
 
-## 1️⃣ Operações Matemáticas
+## 1️⃣ Aula01 — Biblioteca e Curso
 
 ### Funcionalidades
 
-- Soma
-- Subtração
-- Multiplicação
-- Divisão
-- Exponenciação
-
-### Conceitos aplicados
-
-- Exportação de módulos
-- Namespaces
-- Organização de código
-
----
-
-## 2️⃣ Sistema de Carros
-
-### Funcionalidades
-
-- Criação de objetos do tipo carro
-- Método para exibir informações
-- Método de aceleração
+- Modelagem de uma biblioteca com livros e autores
+- Modelagem de um sistema de cursos com alunos e matrículas
 
 ### Conceitos aplicados
 
 - Interfaces
-- Classes
-- Prototype
+- Classes e instâncias
+- Tipagem estática
+- Exportação de módulos
+
+---
+
+## 2️⃣ Aula02 — Programação Orientada a Objetos
+
+### Funcionalidades
+
+- Criação de objetos com propriedades e comportamentos
+- Herança entre classes
+- Métodos públicos e privados
+
+### Conceitos aplicados
+
+- Classes e construtores
+- Herança (`extends`)
 - Encapsulamento
+- Prototype
+- POO aplicada ao TypeScript
 
 ---
 
-## 3️⃣ Calculadora de Massa Molar
+## 3️⃣ Aula03 — Generics
 
 ### Funcionalidades
 
-- Identificação de elementos químicos
-- Cálculo da massa molar
+- Classe genérica reutilizável para armazenamento tipado
+- Funções genéricas com restrições de tipos
 
 ### Conceitos aplicados
 
-- Objetos como dicionários
-- Tipagem de estruturas
-- Processamento de strings
-
----
-
-## 4️⃣ Generics em TypeScript
-
-### Funcionalidades
-
-- Classe genérica reutilizável
-- Armazenamento de objetos tipados
-
-### Conceitos aplicados
-
-- Generics
+- Generics (`<T>`)
 - Restrições de tipos (`extends`)
 - Tipagem avançada
+- Reutilização de código
 
 ---
 
-5️⃣ Sistema de Registro de Usuário e Controle de Lâmpada
+## 4️⃣ Aula04 — Operações Matemáticas
+
+### Funcionalidades
+
+- Soma, subtração, multiplicação e divisão
+- Operações avançadas: exponenciação e módulo
+- Composição de módulos separados por responsabilidade
+
+### Conceitos aplicados
+
+- Exportação e importação de módulos
+- Namespaces
+- Separação de responsabilidades
+- Organização de código
+
+---
+
+## 5️⃣ Aula05 — Sistema de E-mail e Controle de Lâmpada
 
 ### Funcionalidades
 
@@ -143,41 +150,43 @@ Ao desenvolver os códigos desta pasta foi possível aprender:
 
 ### Conceitos aplicados
 
-- Classes
-- Encapsulamento
+- Classes e encapsulamento
 - Injeção de dependência simples
-- Métodos de classe
+- Métodos de instância
 - Organização de responsabilidades entre classes
+- Interfaces comportamentais
 
 ---
 
 # 📂 Estrutura do Diretório
-backend<br />
-│<br />
-└── Typescript<br />
-    │<br />
-    ├── Aula01<br />
-    │   ├── biblioteca.ts<br />
-    │   ├── curso.ts<br />
-    │<br />
-    ├── Aula02<br />
-    │   ├── poo.ts<br />
-    │   ├── poo2.ts<br />
-    │<br />
-    ├── Aula03<br />
-    │   ├── generics.ts<br />
-    │   ├── generics2.ts<br />
-    │   ├── index.ts <br />    
-    │<br />
-    ├── Aula04<br />
-    │   ├── app.ts <br />
-    │   ├── operacoesbasicas.ts <br /> 
-    │   ├── operacoesavancadas.ts <br /> 
-    │<br />
-    ├── Aula05<br /> 
-    │   ├── email.ts <br />
-    │   ├── lampada.ts <br /> 
 
+```
+backend/
+│
+└── Typescript/
+    │
+    ├── Aula01/
+    │   ├── biblioteca.ts      # Modelagem de biblioteca com interfaces
+    │   └── curso.ts           # Modelagem de sistema de cursos
+    │
+    ├── Aula02/
+    │   ├── poo.ts             # POO — classes, herança e encapsulamento
+    │   └── poo2.ts            # POO avançado — múltiplas classes
+    │
+    ├── Aula03/
+    │   ├── generics.ts        # Generics — classe genérica reutilizável
+    │   ├── generics2.ts       # Generics — funções com restrições de tipo
+    │   └── index.ts           # Ponto de entrada e exemplos de uso
+    │
+    ├── Aula04/
+    │   ├── app.ts             # Composição dos módulos de operações
+    │   ├── operacoesbasicas.ts    # Soma, subtração, multiplicação e divisão
+    │   └── operacoesavancadas.ts  # Exponenciação e operações avançadas
+    │
+    └── Aula05/
+        ├── email.ts           # Simulação de envio de e-mail com injeção de dependência
+        └── lampada.ts         # Controle de estado de lâmpada (ligar/desligar)
+```
 
 ---
 
@@ -185,9 +194,10 @@ backend<br />
 
 O objetivo desta pasta é servir como **base de estudos para desenvolvimento backend utilizando TypeScript**, consolidando conceitos fundamentais antes de avançar para projetos mais complexos como:
 
-- APIs REST
-- Frameworks como Express ou NestJS
-- Arquiteturas backend completas
+- APIs REST com Express
+- Frameworks como NestJS
+- Integração com bancos de dados (PostgreSQL, MongoDB)
+- Arquiteturas backend completas (Clean Architecture, DDD)
 
 ---
 
@@ -195,6 +205,5 @@ O objetivo desta pasta é servir como **base de estudos para desenvolvimento bac
 
 **Vinicius Godoy**
 
-LinkedIn  
-www.linkedin.com/in/viniciusgodoy-      
-        
+LinkedIn
+www.linkedin.com/in/viniciusgodoy-
