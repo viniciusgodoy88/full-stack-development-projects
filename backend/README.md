@@ -1,5 +1,3 @@
-# ⚙️ Backend
-
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -15,6 +13,8 @@
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![OutSystems](https://img.shields.io/badge/OutSystems-FF5000?style=for-the-badge&logo=outsystems&logoColor=white)
 ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+
+# Backend Projects
 
 Esta pasta reúne todos os projetos e exercícios de **back-end** desenvolvidos durante o programa Postech Full Stack Development (FIAP), organizados por tema e tecnologia.
 
@@ -146,7 +146,7 @@ Progressão de aulas do Node.js puro até APIs REST com autenticação JWT.
 
 ## 🐾 PetTech API (`nodejs_integracao_banco_fiap-main/pettech`)
 
-API REST completa de gerenciamento de pets, produtos e usuários com arquitetura limpa e Clean Architecture.
+API REST completa de gerenciamento de pets, produtos e usuários com Clean Architecture.
 
 **Entidades:** `User` · `Product` · `Category` · `Person` · `Address`
 
